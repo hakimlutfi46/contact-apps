@@ -3,23 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/berandaId"
+        android:id="@+id/homeId"
         android:title="Beranda"
-        app:showAsAction="never"
         android:icon="@drawable/baseline_home_24"
         />
 
     <item
         android:id="@+id/contactId"
         android:title="Contact"
-        app:showAsAction="never"
         android:icon="@drawable/baseline_contacts_24"
         />
 
     <item
         android:id="@+id/profileId"
         android:title="Profile"
-        app:showAsAction="never"
         android:icon="@drawable/baseline_person_24"
         />
 
