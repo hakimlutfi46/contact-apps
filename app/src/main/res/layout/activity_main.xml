@@ -11,15 +11,25 @@
             android:id="@+id/mainFrameLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/navBar"
+            android:layout_above="@id/navBarFrame"
             app:layout_constraintTop_toTopOf="parent">
         </FrameLayout>
+
+
+<FrameLayout
+    android:id="@+id/navBarFrame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/navBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/navbar"
-            android:layout_alignParentBottom="true"/>
+            app:menu="@menu/navbar"/>
+
+</FrameLayout>
+
+
 
 </RelativeLayout>

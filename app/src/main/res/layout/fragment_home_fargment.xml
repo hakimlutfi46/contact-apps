@@ -18,7 +18,7 @@
         <ImageView
             android:layout_width="57dp"
             android:layout_height="70dp"
-            android:src="@drawable/baseline_home_24"
+            android:src="@drawable/ic_home"
             />
 
         <TextView
